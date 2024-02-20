@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
     <label lang="de">Webp Unterstützung</label>
     <label lang="en">Webp Support</label>
-    <version>1.1.8</version>
+    <version>1.1.9</version>
     <copyright>Friends of Shopware</copyright>
     <license>MIT</license>
     <link>https://friendsofshopware.github.io/</link>
@@ -173,10 +173,10 @@
 
     <changelog version="1.1.9">
         <changes lang="en">
-            - Added <img> "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
+            - Added &lt;img&gt; "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
         </changes>
         <changes lang="de">
-            - Added <img> "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
+            - Added &lt;img&gt; "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
         </changes>
     </changelog>
 </plugin>
