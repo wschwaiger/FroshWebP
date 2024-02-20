@@ -170,4 +170,13 @@
             - Added webp thumbnails to media manager linking
         </changes>
     </changelog>
+
+    <changelog version="1.1.9">
+        <changes lang="en">
+            - Added <img> "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
+        </changes>
+        <changes lang="de">
+            - Added <img> "src" attribute to HTML output to pass the HTML validator and to show thumbnails in Google's search results.
+        </changes>
+    </changelog>
 </plugin>

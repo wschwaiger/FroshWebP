@@ -50,6 +50,7 @@
                             <source srcset="{$sArticleMedia.thumbnails[0].webp.sourceSet}" type="image/webp">
                         {/if}
                         <img loading="lazy" srcset="{$sArticleMedia.thumbnails[0].sourceSet}"
+                             src="{$sArticleMedia.thumbnails[0].source}"
                              class="blog--thumbnail-image"
                              alt="{s name="BlogThumbnailText" namespace="frontend/blog/detail"}{/s}: {$alt}"
                              title="{s name="BlogThumbnailText" namespace="frontend/blog/detail"}{/s}: {$alt|truncate:160}" />

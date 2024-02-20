@@ -47,6 +47,6 @@
         {if isset($image.thumbnails[1].webp)}
             <source srcset="{$image.thumbnails[1].webp.sourceSet}" type="image/webp">
         {/if}
-        <img loading="lazy" srcset="{$image.thumbnails[1].sourceSet}" alt="{$alt}" itemprop="image" />
+        <img loading="lazy" src="{$image.thumbnails[1].source}" srcset="{$image.thumbnails[1].sourceSet}" alt="{$alt}" itemprop="image" />
     </picture>
 {/block}

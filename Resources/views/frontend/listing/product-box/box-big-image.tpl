@@ -7,6 +7,7 @@
             <source srcset="{$sArticle.image.thumbnails[1].webp.sourceSet}" type="image/webp">
         {/if}
         <img loading="lazy" srcset="{$sArticle.image.thumbnails[1].sourceSet}"
+             src="{$sArticle.image.thumbnails[1].source}"
              alt="{$desc}"
              title="{$desc|truncate:160}"/>
     </picture>

@@ -12,6 +12,7 @@
                             <source srcset="{$sArticle.media.thumbnails[0].webp.sourceSet}" type="image/webp">
                         {/if}
                         <img loading="lazy" srcset="{$sArticle.media.thumbnails[0].sourceSet}"
+                             src="{$sArticle.media.thumbnails[0].source}"
                              alt="{$sArticle.title|escape}"
                              title="{$sArticle.title|escape|truncate:160}" />
                     </picture>

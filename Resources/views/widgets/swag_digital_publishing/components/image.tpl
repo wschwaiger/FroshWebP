@@ -23,7 +23,7 @@
                 {if $thumbnail.webp}
                     <source srcset="{$thumbnail.webp.sourceSet}" type="image/webp">
                 {/if}
-                <img srcset="{$src}"
+                <img src={$src} srcset="{$src}"
                      class="dig-pub--img{if $element.class} {$element.class}{/if}"
                      style="{$imageStyle}"
                         {if $element.alt} alt="{$element.alt}"{/if} />
